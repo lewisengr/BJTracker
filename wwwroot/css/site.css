@@ -1,0 +1,93 @@
+html {
+    font-size: 14px;
+    position: relative;
+    min-height: 100%;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+body {
+    margin-bottom: 60px;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(5px);
+    padding: 15px;
+}
+
+.background-img {
+    background-image: url('/Images/man-strategizing-over-a-game-of-blackjack-91p0klf5z419akk9.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.footer {
+    position: relative;
+    padding-bottom: 60px;
+    background-color: rgba(75, 8, 8, 0.65);
+    z-index: 2;
+    backdrop-filter: blur(5px);
+}
+
+.navbar .navbar-brand {
+    font-weight: bold;
+}
+
+.container .pb-3 {
+    padding: 15px;
+    margin: 45px;
+    font-weight: 500;
+    background-color: rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(7px);
+    border-radius: 40px;
+}
+
+.heading-1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #220505;
+}
+
+.heading-2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #6d4545;
+}
+
+/* IF NEEDED 
+.heading-3 {
+    font-size: 1.75rem;
+    font-weight: bold;
+    color: #555555;
+}
+
+.heading-4 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #666666;
+}*/
+
+.paragraph {
+    font-size: 1.1rem;
+    color: #333333;
+    margin-bottom: 1.5rem;
+}
+
+.article-bj-tracker, .article-content {
+    margin: 15px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 20px;
+}
