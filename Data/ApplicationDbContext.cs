@@ -11,4 +11,15 @@ public class ApplicationDbContext : IdentityDbContext
     {
     }
     public DbSet<BJTracker.Models.Session> Session { get; set; } = default!;
+
+    protected override void OnModelCreating(ModelBuilder builder)
+    {
+        base.OnModelCreating(builder);
+
+        builder.Entity<BJTracker.Models.Session>()
+            .Property(e => e.Result)
+            .HasPrecision(18, 2);
+
+    }
+
 }
